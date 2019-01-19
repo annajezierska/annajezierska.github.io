@@ -4,13 +4,84 @@
 }
 body {
     color: beige;
-    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: arial;
+    font-family: "GT Sectra Fine", "GT Sectra", "Hoefler Text", "Times New Roman", serif;
     font: 15px;
     background: #000;
     text-align: center;
+
+}
+header {
+    min-height: 5vh;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #936D61;
+    font-family: "GT Sectra Fine", "GT Sectra", "Hoefler Text", "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+        
+        //<!---url(DSC_0295.JPG) center/cover no-repeat; -->
+    
+    
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 72px;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+}
+nav a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: beige;
+}
+nav {
+    line-height: 60px;
+    background: #000;
+    width: 100%;
+}
+nav a:hover, nav a:focus {
+     color: azure;
+}
+div {
+    padding: 50px 0;
+}
+ //.wrapper div:nth-child(even) {
+  //  background: #936D61;
+}
+.wrapper {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    nav ul {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        min-width: 100vh;
+        background: black;
+    }
+    nav li {
+        flex-grow: 1;
+        justify-content: flex-start;
+    }
 }
