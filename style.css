@@ -40,6 +40,16 @@ header {
     
     
 }
+
+.photo img {
+    width: 70vh;
+    height: auto;
+    
+}
+
+#aboutMe p {
+    line-height: 50px;
+}
 #skills {
     background: #936D61;
 }
@@ -121,7 +131,10 @@ div {
     justify-content: center;
     align-content: center;
     padding-bottom: 100px;
+    padding-top: 200px;
 }
+
+
 #skills {
     height: 700px;
     padding-top: 30px;
@@ -136,6 +149,27 @@ div {
 #projects h2, ul li {
 list-style: none;
 }
+
+.wrapper div {
+    height: 100vh;
+    min-height: 40vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+#skills ul li img {
+    max-width: 1250px;
+}
+
 @media screen and (min-width: 768px) {
     nav ul {
         display: flex;
@@ -155,25 +189,7 @@ list-style: none;
     background: #936D61;
     
 }
-.wrapper div {
-    height: 70vh;
-    min-height: 40vh;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#contact ul {
-    display: flex;
-    list-style: none;
-    
-    
-}
 
-#skills ul li img {
-    max-width: 1250px;
-}
    
 
 @media (min-width: 500px)  {
