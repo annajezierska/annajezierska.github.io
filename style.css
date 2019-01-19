@@ -1,10 +1,11 @@
 * {
-    margin: 0;
+
     padding: 0;
     
 }
 body {
     font-family: "GT Sectra Fine", "GT Sectra", "Hoefler Text", "Times New Roman", serif;
+    font-style: italic;
     color: antiquewhite;
     margin-left: auto;
     margin-right: auto;
@@ -28,13 +29,10 @@ header {
     padding-bottom: 200px;
     background: #936D61;
     font-family: "GT Sectra Fine", "GT Sectra", "Hoefler Text", "Times New Roman", serif;
-    font-size: 16px;
     line-height: 1.2em;
     font-style: italic;
     font-weight: 400;
     text-transform: none;
-    
-   
     color: antiquewhite;
     text-shadow: 0 0 15px rgba(0, 0, 0, .3);
         
@@ -74,6 +72,9 @@ nav ul {
     display: flex;
 }
 
+#aboutMe p {
+    font-style: normal;
+}
 nav a {
     display: block;
     text-align: center;
@@ -119,11 +120,10 @@ div {
     min-height: 50vh;
     justify-content: center;
     align-content: center;
-    padding-top: 200px;
     padding-bottom: 100px;
 }
 #skills {
-    min-height: 50vh;
+    height: 700px;
     padding-top: 30px;
 }
 
@@ -156,6 +156,7 @@ list-style: none;
     
 }
 .wrapper div {
+    height: 70vh;
     min-height: 40vh;
     padding: 20px;
     display: flex;
@@ -166,16 +167,14 @@ list-style: none;
 #contact ul {
     display: flex;
     list-style: none;
-
+    
     
 }
 
 #skills ul li img {
     max-width: 1250px;
 }
-    #skills ul li {
-        font-size: 20px;
-    }
+   
 
 @media (min-width: 500px)  {
     .showMenu {
@@ -197,6 +196,7 @@ list-style: none;
         width: 25%;
         text-align: center;
         font-size: 20px;
+    
     }
 }
 
