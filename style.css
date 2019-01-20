@@ -29,6 +29,10 @@ header {
     
 }
 
+.welcome {
+    padding-top: 80px;
+}
+
 .photo img {
     width: 70vh;
     height: auto;
@@ -199,6 +203,12 @@ list-style: none;
         flex-grow: 1;
         justify-content: flex-start;
     }
+    #skills ul li img {
+    max-width: 400px;
+}
+    #skills ul li p {
+        font-size: 25px;
+    }
 }
 
 
@@ -263,6 +273,7 @@ list-style: none;
         font-size: 25px;
         text-align: center;
     }
+
     
     #skills ul li img {
     max-width: 90px;
