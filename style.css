@@ -12,6 +12,12 @@ body {
     text-align: center;
 }
 
+hr { 
+  width: 100%;
+    height: 100px;
+    background: black;
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
@@ -38,9 +44,11 @@ header {
     height: auto;
     margin-top: 30px;
     
-    
 }
 
+#aboutMe {
+    background: #936D61;
+}
 #aboutMe h2 {
     margin-top: 0;
     
