@@ -78,8 +78,9 @@ header {
     
     
 }
-#skills ul li img:hover {
+#skills ul li:hover {
     transform: scale(1.2);
+    color: black;
 }
 #skills {
     color: antiquewhite;
