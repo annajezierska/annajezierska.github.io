@@ -27,11 +27,7 @@ header {
     min-height: 60vh;
     padding-top: 120px;
     padding-bottom: 200px;
-    background: #936D61;
-
-        
-        //<!---url(DSC_0295.JPG) center/cover no-repeat; -->
-    
+    background: #936D61;    
     
 }
 
@@ -98,7 +94,7 @@ nav a:hover, nav a:focus {
      color: azure;
 }
 
-}
+
 .wrapper {
     text-align: center;
 }
@@ -129,7 +125,7 @@ nav a:hover, nav a:focus {
     padding-top: 30px;
 }
 
-}
+
 #projects h2, ul{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -148,6 +144,10 @@ list-style: none;
     align-items: center;
     justify-content: center;
 }
+.wrapper div:nth-child(even) {
+    background: #936D61;
+}
+
 #contact ul {
     display: flex;
     list-style: none;
@@ -173,10 +173,7 @@ list-style: none;
         justify-content: flex-start;
     }
 }
-.wrapper div:nth-child(even) {
-    background: #936D61;
-    
-}
+
 
    
 
@@ -203,6 +200,8 @@ list-style: none;
     
     }
 }
+
+
 
 @media (max-width: 499px) {
     
