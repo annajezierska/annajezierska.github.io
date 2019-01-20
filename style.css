@@ -1,7 +1,5 @@
 * {
-
     padding: 0;
-    
 }
 body {
     font-family: "GT Sectra Fine", "GT Sectra", "Hoefler Text", "Times New Roman", serif;
@@ -45,8 +43,25 @@ header {
     display: flex;
     list-style: none;
     justify-content: space-around;
+    align-items: baseline;
+    
+}
+#skills ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+     
 }
 
+#skills ul li img{
+    padding: 10px;
+    flex-shrink: 5;
+    
+    
+}
+#skills ul li img:hover {
+    transform: scale(1.2);
+}
 #skills {
     color: antiquewhite;
     font-weight: bold;
@@ -104,13 +119,21 @@ nav a:hover, nav a:focus {
     min-height: 50vh;
     display: flex;
     flex-direction: column;
-   
 }
 #contact h2, ul {
     align-self: center;
     
 }
+#contact ul {
+    padding: 0;
+}
 
+#contact a img:hover {
+    transform: scale(1.2);
+    
+}
+
+}
 #aboutMe {
     min-height: 50vh;
     justify-content: center;
@@ -127,7 +150,6 @@ nav a:hover, nav a:focus {
 
 
 #projects h2, ul{
-    padding-top: 100px;
     padding-bottom: 100px;
     
 }
@@ -151,7 +173,6 @@ list-style: none;
 #contact ul {
     display: flex;
     list-style: none;
-    
     
 }
 
