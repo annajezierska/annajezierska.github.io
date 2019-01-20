@@ -34,13 +34,20 @@ header {
 }
 
 .photo img {
-    width: 70vh;
+    width: 50vh;
     height: auto;
+    margin-top: 30px;
+    
     
 }
 
+#aboutMe h2 {
+    margin-top: 0;
+    
+}
 #aboutMe p {
     line-height: 50px;
+    padding-bottom: 50px;
 }
 
 #skills ul {
@@ -48,6 +55,7 @@ header {
     list-style: none;
     justify-content: space-around;
     align-items: baseline;
+    padding-top: 50px;
     
 }
 #skills ul li {
