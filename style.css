@@ -33,9 +33,6 @@ header {
     
 }
 
-.welcome {
-    padding-top: 70px;
-}
 
 .photo img {
     width: 50vh;
@@ -47,7 +44,12 @@ header {
 #aboutMe {
     background: #936D61;
     height: 100vh;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
 }
+
+
 #aboutMe h2 {
     margin-top: 0;
     
@@ -153,16 +155,6 @@ nav a:hover, nav a:focus {
     
 }
 
-
-#aboutMe {
-    height: 100vh;
-    justify-content: center;
-    align-content: center;
-    padding-bottom: 100px;
-    padding-top: 200px;
-}
-
-
 #skills {
     height: 100vh;
     padding-top: 30px;
@@ -253,13 +245,7 @@ list-style: none;
 
 @media screen and (max-width: 499px) {
     
-    .welcome {
-        height: 100vh;
-    }
-    
-    h1 {
-        padding-top: 160px;
-    }
+   
     nav {
         position: fixed;
         top: 0;
