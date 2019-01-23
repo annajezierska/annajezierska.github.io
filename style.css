@@ -34,7 +34,7 @@ header {
 }
 
 .welcome {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .photo img {
@@ -253,13 +253,12 @@ list-style: none;
 
 @media screen and (max-width: 499px) {
     
-  
     .welcome {
         height: 100vh;
     }
     
     h1 {
-        padding-top: 150px;
+        padding-top: 160px;
     }
     nav {
         position: fixed;
@@ -301,4 +300,8 @@ list-style: none;
     #skills ul li p {
         font-size: 15px;
     }
+    
+    .contactImage img {
+    max-width: 150px; 
+    height: auto;
 }
